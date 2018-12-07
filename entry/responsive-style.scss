@@ -1,0 +1,77 @@
+//Pierwsza strona i druga
+
+@media screen and (min-width: 1250px) and (max-width: 1367px){
+    .info .photo{
+        right: 100px;
+    }
+
+    //Druga strona
+
+    .info .cont .right .box{
+        margin-left: 0;
+    }
+}
+
+@media screen and (min-width: 1150px) and (max-width: 1250px){
+    .info .photo{
+        right: 50px;
+    }
+
+    //Druga strona
+
+    .info .cont .right .box{
+        margin-left: 0;
+    }
+}
+
+@media screen and (max-width: 1150px){
+    .hello{
+        height: 1000px;
+
+        .cont .next{
+            top: 700px;
+            left: 0;
+            right: 0;
+            margin: auto;
+        }
+    }
+    
+    .info .photo{
+        right: 0;
+        left: 0;
+        margin: auto;
+        top: 350px;
+    }
+
+    //Druga strona
+
+    .info .cont{
+        width: 100%;
+    
+        .right .box{
+            width: 100%;
+            height: 100%;
+            margin: 0;
+        }
+    
+        .left .img{
+            width: 100%;
+            margin: auto;
+        }
+    }
+}
+
+@media screen and (max-width: 1000px){
+    .hello .cont .text{
+        width: 800px;
+
+        h1{
+            font-size: 100px;
+        }
+
+        h2{
+            font-size: 60px;
+        }
+    }
+    
+}
